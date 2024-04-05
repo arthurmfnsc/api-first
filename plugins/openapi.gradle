@@ -1,0 +1,22 @@
+apply plugin: "org.openapi.generator"
+
+openApiGenerate {
+    generatorName.set("spring")
+    inputSpec.set("${project.rootDir}/src/main/resources/openapi/folha_ponto-api.yaml")
+    configOptions.set([
+        apiPackage: "org.openapitools.api",
+        dateLibrary: "java8",
+        hideGenerationTimestamp: "true",
+        interfaceOnly: "true",
+        invokerPackage: "org",
+        modelPackage: "org.openapitools.model",
+        openApiNullable: "false",
+        performBeanValidation: "true",
+        useSpringBoot3: "true"
+    ] as Map<? extends String, ? extends String>)
+    globalProperties.set([
+            language: "spring"
+    ] as Map<? extends String, ? extends String>)
+}
+
+tasks.compileJava.dependsOn("openApiGenerate")

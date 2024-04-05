@@ -1,0 +1,7 @@
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+}
+
+java.sourceSets["main"].java {
+    srcDir("build/generate-resources/main/src/main/java")
+}
