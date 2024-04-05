@@ -18,7 +18,7 @@ repositories {
 
 dependencies {
 	implementation("io.swagger.core.v3:swagger-core:2.2.21")
-	implementation("org.hibernate.validator:hibernate-validator:7.0.1.Final")
+	implementation("org.hibernate.validator:hibernate-validator:8.0.1.Final")
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 
