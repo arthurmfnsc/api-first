@@ -74,6 +74,10 @@ Linter ([Checkstyle](https://checkstyle.org/), [PMD](https://docs.pmd-code.org/l
 El objetivo de este proyecto es validar nuevas herramientas, superposiciones de 
 funcionalidad y aplicabilidad
 
+Este proyecto también utiliza otros mecanismos de validación de seguridad y 
+vulnerabilidad, como [Dependabot](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide) 
+y [otros](https://github.com/arthurmfnsc/api-first/security).
+
 En el futuro, el repositorio puede sufrir cambios no necesariamente relacionados con la 
 parte de seguridad, pero la pipeline de CI/CD y el contexto de seguridad permanecerán. 
 Debido a que agregaste varias GithubActions en confirmaciones futuras, es posible que 
