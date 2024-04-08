@@ -4,6 +4,7 @@ sonarqube {
     properties {
         property "sonar.projectKey", "arthurmfnsc_api-first"
         property "sonar.organization", "arthurmfnsc"
+        property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.projectVersion", rootProject.version
         property "sonar.token", System.getenv('SONAR_TOKEN')
         property 'sonar.sourceEncoding', 'UTF-8'
