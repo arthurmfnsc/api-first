@@ -93,6 +93,6 @@ El proyecto usa otra [configuración de seguridad de GitHub](https://github.com/
   [snyk containers](https://snyk.io/pt-BR/product/container-vulnerability-management/) y otros
 - [ ] Configurar plugin Cotrast Community: Problema con la ruta serif
 - [x] Configurar plugin PMD: Problema con propriedad browser_download_url
-- [ ] Configurar plugin Snyk Security: Problema con serif
+- [x] Configurar plugin Snyk Security: Problema con serif
 - [x] Configurar plugin SonarCloud: Añadir variables secreta SONAR_TOKEN
 - [ ] Configurar plugin SOOS: Añadir variables secreta
