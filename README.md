@@ -63,7 +63,24 @@ definir el mejor enfoque para las herramientas SAST, DAST y definir el sombreado
 opciones, por lo que agregué varias GithubActions para validar algunos conceptos en la 
 pipeline.
 
+Algunas de ellas nunca he trabajado antes como Codacy, CodeQL, Contrast, Crunch42, 
+Dependency review, devskim, mobsf, scorecard, semgrep y SooS.
+
 En el futuro, el repositorio puede sufrir cambios no necesariamente relacionados con la 
 parte de seguridad, pero la pipeline de CI/CD y el contexto de seguridad permanecerán. 
 Debido a que agregaste varias GithubActions en confirmaciones futuras, es posible que 
 algunas de ellas se modifiquen sean eliminadas.
+
+El proyecto usa otra [configuración de seguridad de GitHub](https://github.com/arthurmfnsc/api-first/security).
+
+## TODO
+
+- [ ] Añadir plugin [OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/index.html)
+- [ ] Añadir plugins de Docker después de crear el Dockerfile del proyecto.
+  Algunos plugins que serán validados son: [anchore-syft](https://github.com/anchore/syft),
+  [snyk containers](https://snyk.io/pt-BR/product/container-vulnerability-management/) y otros
+- [ ] Configurar plugin Cotrast Community: Problema con la ruta serif
+- [ ] Configurar plugin PMD: Problema con propriedad browser_download_url
+- [ ] Configurar plugin Snyk Security: Problema con serif
+- [ ] Configurar plugin SonarCloud: Añadir variables secreta SONAR_TOKEN
+- [ ] Configurar plugin SOOS: Añadir variables secreta
