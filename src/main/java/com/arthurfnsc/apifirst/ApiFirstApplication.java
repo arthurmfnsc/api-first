@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ApiFirstApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(ApiFirstApplication.class, args);
 	}
-
 }
