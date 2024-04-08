@@ -64,7 +64,7 @@ opciones, por lo que agregué varias GithubActions para validar algunos concepto
 pipeline.
 
 Algunas de ellas nunca he trabajado antes como Codacy, CodeQL, Contrast, Crunch42, 
-Dependency review, devskim, mobsf, scorecard, semgrep y SooS.
+Dependency review, devskim, scorecard, semgrep y SooS.
 
 En el futuro, el repositorio puede sufrir cambios no necesariamente relacionados con la 
 parte de seguridad, pero la pipeline de CI/CD y el contexto de seguridad permanecerán. 

@@ -54,4 +54,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Generate a token on Sonarcloud.io, add it to the secrets of this repo with the name SONAR_TOKEN (Settings > Secrets > Actions > add new repository secret)
         with:
           gradle-cli-opts: "--info"
+          sonar-organization: "arthurmfnsc"
+          sonar-project-key: "api-first"
           sonar-token: ${{ secrets.SONAR_TOKEN }}
