@@ -74,6 +74,10 @@ Linter ([Checkstyle](https://checkstyle.org/), [PMD](https://docs.pmd-code.org/l
 El objetivo de este proyecto es validar nuevas herramientas, superposiciones de 
 funcionalidad y aplicabilidad
 
+Este proyecto también utiliza otros mecanismos de validación de seguridad y 
+vulnerabilidad, como [Dependabot](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide) 
+y [otros](https://github.com/arthurmfnsc/api-first/security).
+
 En el futuro, el repositorio puede sufrir cambios no necesariamente relacionados con la 
 parte de seguridad, pero la pipeline de CI/CD y el contexto de seguridad permanecerán. 
 Debido a que agregaste varias GithubActions en confirmaciones futuras, es posible que 
@@ -89,6 +93,6 @@ El proyecto usa otra [configuración de seguridad de GitHub](https://github.com/
   [snyk containers](https://snyk.io/pt-BR/product/container-vulnerability-management/) y otros
 - [ ] Configurar plugin Cotrast Community: Problema con la ruta serif
 - [x] Configurar plugin PMD: Problema con propriedad browser_download_url
-- [ ] Configurar plugin Snyk Security: Problema con serif
+- [x] Configurar plugin Snyk Security: Problema con serif
 - [x] Configurar plugin SonarCloud: Añadir variables secreta SONAR_TOKEN
 - [ ] Configurar plugin SOOS: Añadir variables secreta
