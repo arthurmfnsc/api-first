@@ -66,6 +66,14 @@ pipeline.
 Algunas de ellas nunca he trabajado antes como Codacy, CodeQL, Contrast, Crunch42, 
 Dependency review, devskim, scorecard, semgrep y SooS.
 
+Un escenario común con el que he trabajado fue con las herramientas [OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/index.html), 
+Linter ([Checkstyle](https://checkstyle.org/), [PMD](https://docs.pmd-code.org/latest/) or 
+[Spotless](https://github.com/diffplug/spotless)), SonarQube y SAST ([Kiwan](https://www.kiuwan.com/), 
+[Snyk](https://snyk.io/)).
+
+El objetivo de este proyecto es validar nuevas herramientas, superposiciones de 
+funcionalidad y aplicabilidad
+
 En el futuro, el repositorio puede sufrir cambios no necesariamente relacionados con la 
 parte de seguridad, pero la pipeline de CI/CD y el contexto de seguridad permanecerán. 
 Debido a que agregaste varias GithubActions en confirmaciones futuras, es posible que 
