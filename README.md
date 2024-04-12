@@ -83,8 +83,6 @@ parte de seguridad, pero la pipeline de CI/CD y el contexto de seguridad permane
 Debido a que agregaste varias GithubActions en confirmaciones futuras, es posible que 
 algunas de ellas se modifiquen sean eliminadas.
 
-El proyecto usa otra [configuración de seguridad de GitHub](https://github.com/arthurmfnsc/api-first/security).
-
 ## TODO
 
 - [ ] Añadir plugin [OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/index.html)
@@ -95,4 +93,3 @@ El proyecto usa otra [configuración de seguridad de GitHub](https://github.com/
 - [x] Configurar plugin PMD: Problema con propriedad browser_download_url
 - [x] Configurar plugin Snyk Security: Problema con serif
 - [x] Configurar plugin SonarCloud: Añadir variables secreta SONAR_TOKEN
-- [ ] Configurar plugin SOOS: Añadir variables secreta
