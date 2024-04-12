@@ -91,7 +91,7 @@ El proyecto usa otra [configuración de seguridad de GitHub](https://github.com/
 - [ ] Añadir plugins de Docker después de crear el Dockerfile del proyecto.
   Algunos plugins que serán validados son: [anchore-syft](https://github.com/anchore/syft),
   [snyk containers](https://snyk.io/pt-BR/product/container-vulnerability-management/) y otros
-- [ ] Configurar plugin Cotrast Community: Problema con la ruta serif
+- [x] Configurar plugin Cotrast Community: Problema con la ruta serif
 - [x] Configurar plugin PMD: Problema con propriedad browser_download_url
 - [x] Configurar plugin Snyk Security: Problema con serif
 - [x] Configurar plugin SonarCloud: Añadir variables secreta SONAR_TOKEN
