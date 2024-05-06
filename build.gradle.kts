@@ -1,7 +1,7 @@
 plugins {
 	java
 
-	id("io.spring.dependency-management") version "1.1.4"
+	id("io.spring.dependency-management") version "1.1.5"
 	id("org.openapi.generator") version "7.4.0" apply false
 	id("org.sonarqube") version "5.0.0.4638" apply false
 	id("org.springframework.boot") version "3.2.4"
